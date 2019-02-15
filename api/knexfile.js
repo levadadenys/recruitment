@@ -9,7 +9,7 @@ dotenv.config({ path: '.env' });
 
 module.exports = {
   client: 'pg',
-  connection: {},
+  connection: 'postgres://postgres:password@localhost/postgres',
   migrations: {
     tableName: 'migrations',
   },
